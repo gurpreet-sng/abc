@@ -1,0 +1,401 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #f7f3eb;
+    font-family: "Outfit", sans-serif;
+}
+.spaceleft-right{
+    padding: 0px 60px;
+}
+.spaceleft-right-30{
+    padding: 0px 30px;
+}
+header .btn{
+    border: 0px;
+}
+header form{
+    position: relative;
+    margin-right: 20px;
+}
+header form button{
+    position: absolute;
+    right: 8px;
+    top: 4px;
+}
+.me-auto{
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+.navbar-expand-md .navbar-nav .nav-link{
+    color:#154270;
+    font-family: "Laila", serif;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    font-weight: 600;
+    position: relative;
+}
+.navbar-expand-md .navbar-nav .nav-link:before{
+    content: "";
+    width: 5px;
+    height: 5px;
+    border-radius: 50px;
+    background-color: #e94241;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.navbar-nav li:last-child a:before{
+    display: none;
+}
+header form .form-control{
+    border-radius: 50px;
+    border: 0px;
+    height: 48px;
+    font-family: "Laila", serif;
+}
+.phone-no a{
+    font-family: "Laila", serif;
+    text-decoration: none;
+    font-weight: 600;
+    color: #154270;
+    display: block;
+}
+.phone-no a i{
+    display: inline-block;
+    margin-right: 3px;
+}
+.btn.btn-style{
+    background-color: #EA4142;
+    font-family: "Laila", serif;
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 50px;
+    padding: 18px 30px;
+    font-weight: 600;
+}
+.phone-no{
+    margin-right: 20px;
+}
+header{
+    padding: 20px 0px;
+}
+.banner-section{
+    border-radius: 30px;
+    overflow: hidden;
+    background-image: url("../images/banner.jpg");
+    padding: 150px 0px;
+    background-size: cover;
+    z-index: 20;
+    position: relative;
+}
+.btn.shortbtn{
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 12px;
+    font-family: "Roboto", sans-serif;
+    border: 1px solid #ffffff;
+    border-radius: 100px;
+    text-transform: uppercase;
+    padding: 5px 22px;
+}
+.banner-section h1{
+    font-family: "Laila", serif;
+    color: #ffffff;
+    font-size: 100px;
+    font-weight: 700;
+    margin: 20px 0px 30px;
+    line-height: 120px;
+}
+.banner-section hr{
+    color: #ffffff;
+    height: 1px;
+    opacity: 1;
+    width: 600px;
+}
+.banner-section p{
+    font-size: 18px;
+    line-height: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin: 20px 0px;
+}
+.btn.btn-style.btn-white{
+    background-color: #ffffff;
+    color: #000000;
+}
+.btn.btn-style.btn-white i{
+    margin-left: 5px;
+    position: relative;
+    top: -2px;
+}
+.btn.btn-style.btn-white:hover{
+    background-color: #EA4142;
+}
+.btn.btn-style:hover{
+    background-color: #c72324;
+}
+.banner-section-bottom{
+    background-image: url("../images/redbg.jpg");
+    background-size: cover;
+    padding: 120px 0px 60px;
+    border-radius: 0px 0px 40px 40px;
+    margin-top: -40px;
+    z-index: 10;
+    position: relative;
+}
+.users-rating{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.users-rating .users-rating-img{
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+.users-rating p{
+    font-family: "Laila", serif;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    margin: 0px;
+}
+.users-rating p a{
+    color: #154270;
+    text-decoration: none;
+    margin-right: 5px;
+}
+.video-link-img{
+    flex-shrink: 0;
+}
+.video-link.users-rating p{
+    margin-right: 10px;
+}
+.service-box{
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 40px 30px;
+}
+.service-box-title {
+    display: flex;
+    align-items: center;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 25px;
+}
+.service-box-title h4{
+    margin: 0px;
+    font-family: "Laila", serif;
+    font-size: 26px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+.service-box p{
+    margin-bottom: 0px;
+    font-size: 16px;
+    color:#463933;
+}
+.service-box{
+    position: relative;
+    height: 290px;
+}
+.arr-shape {
+    position: absolute;
+    right: -8px;
+    bottom: -19px;
+}
+.arr-shape{
+    position: absolute;
+}
+.service-section-wrapper{
+    padding: 100px 0px;
+}
+.happy-clients-image{
+    border-radius: 30px;
+    overflow: hidden;
+}
+.happy-clients-text{
+
+}
+.happy-clients-no {
+    background-color: #ffffff;
+    padding: 0px;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 240px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.happy-clients-no h3{
+    color: #154270;
+    font-size: 60px;
+    font-family: "Laila", serif;
+    font-weight: 700;
+    margin-bottom:0px ;
+}
+.happy-clients-no h3 span{
+    color: #EA4142;
+}
+.happy-clients-no hr{
+    width: 130px;
+    margin-bottom: 15px;
+}
+.happy-clients-no p{
+    margin: 0px;
+}
+.happy-clients-box{
+    position: relative;
+}
+.we-love-text ul{
+    margin: 0px;
+    padding: 0px;
+}
+.we-love-text ul li{
+    list-style: none;
+    width: 50%;
+    float: left;
+    margin-bottom: 25px;
+}
+.we-love-text ul li a{
+    text-transform: none;
+}
+.we-love-text h3{
+    font-family: "Laila", serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: #154270;
+}
+.we-love-text{
+    margin-left: 40px;
+}
+.we-love-text p{
+    font-size: 16px;
+    color: #616161;
+    margin: 30px 0px;
+    line-height: 28px;
+}
+.we-love-text ul li a{
+    text-decoration: none;
+    color: #154270;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.we-love-text .btn.btn-style{
+    background-color: transparent;
+    border:2px solid #EA4142;
+    color: #EA4142;
+    margin-top: 20px;
+}
+.we-love-text .btn.btn-style i{
+    position: relative;
+    top: -2px;
+    margin-left: 5px;
+}
+.marquee-section h2{
+    color: #EA4142;
+    font-family: "Laila", serif;
+    font-size: 90px;
+    font-weight: 700;
+    display: inline-block;
+    margin: 0px 100px;
+    line-height: 90px;
+}
+.marquee-section{
+    padding: 60px 0px;
+}
+.outline{
+    display: inline-block;
+}
+.marquee-section h2 span{
+    color: #154270;
+}
+.btn.shortbtn.shortbtn-white{
+    background-color: #ffffff;
+    color: #154270;
+    margin-bottom: 20px;
+}
+.btn.shortbtn.shortbtn-white i{
+    margin-right: 5px;
+    position: relative;
+    top: -1px;
+}
+.high-quality-services{
+    background-image: url("../images/service-bg.jpg");
+    background-size: cover;
+}
+.high-quality-services{
+    padding: 100px 0px;
+}
+.high-quality-content{
+    padding-left: 140px;
+}
+.high-quality-content h2{
+    font-family: "Laila", serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 60px;
+}
+.service-image{
+    border-radius: 30px;
+    overflow: hidden;
+}
+.service-item-title i {
+    position: absolute;
+    right: 0px;
+    top: auto;
+    bottom: 0;
+}
+.service-tm{
+    position: relative;
+}
+.service-item-title{
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    margin-top: -108px;
+}
+.service-item-title i{
+    position: absolute;
+    right: 0px;
+}
+.service-item-title h6{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+}
+.service-item-title h3{
+    color: #ffffff;
+     font-family: "Laila", serif;
+     font-size: 26px;
+     font-weight: 500;
+}
+@media only screen and (min-width: 1920px){
+
+    .container-fluid{
+        width: 1720px;  
+    }
+}
+@media only screen and (max-width:1600px){
+
+    .get-in-touch-btn{
+        display: none;
+    }
+}
+@media only screen and (max-width:1440px){
+
+}
+@media only screen and (max-width:1199px){
+
+}
