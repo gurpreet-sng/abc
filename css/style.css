@@ -332,9 +332,32 @@ header{
 .high-quality-services{
     background-image: url("../images/service-bg.jpg");
     background-size: cover;
-}
-.high-quality-services{
     padding: 100px 0px;
+    overflow: hidden;
+}
+.high-quality-services .owl-carousel{
+    margin-left: 140px;
+    position: relative;
+}
+.high-quality-services .owl-nav{
+    position: absolute;
+    top: -170px;
+    right: 20%;
+}
+.high-quality-services .owl-nav .owl-next span,.high-quality-services .owl-nav .owl-prev span{
+    font-size: 0px;
+    width: 60px;
+    height: 50px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.high-quality-services .owl-nav .owl-next span{
+    background-image: url("../images/arr-right.png");
+    background-repeat: no-repeat;
+}
+.high-quality-services .owl-nav .owl-prev span{
+    background-image: url("../images/arr-left.png");
+    background-repeat: no-repeat;
 }
 .high-quality-content{
     padding-left: 140px;
@@ -350,7 +373,7 @@ header{
     border-radius: 30px;
     overflow: hidden;
 }
-.service-item-title i {
+.service-item-title i{
     position: absolute;
     right: 0px;
     top: auto;
@@ -389,6 +412,120 @@ header{
 }
 .happy-with-us-section{
     padding: 100px 0px;
+}
+.feature-box{
+    display: flex;
+}
+.feature-box i{
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+.feature-box-text h6{
+    font-family: "Laila", serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #463933;
+}
+.feature-box-text p{
+    font-size: 16px;
+    color: #616161;
+    margin-bottom: 0px;
+    line-height: 26px;
+}
+.margin-bottom-60{
+    margin-bottom: 60px;
+}
+.happy-with-us-section .section-title{
+    margin-bottom: 100px;
+}
+.team-member-data h5{
+    font-family: "Laila", serif;
+    font-size: 26px;
+    color: #463933;
+    margin: 30px 0px 10px;
+}
+.team-member-data p{
+    color: #463933;
+    font-size: 16px;
+    margin-bottom: 0px;
+    line-height: 24px;
+}
+.team-member-data{
+    text-align: center;
+}
+.team-member-data h6{
+    color: #616161;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.meet-team-section .section-title{
+    margin-bottom: 60px;
+}
+.space-top-bottom-100{
+    padding: 100px 0px;
+}
+.testimonial-box i{
+    display: inline-block;
+    margin-bottom: 0px;
+    flex-shrink: 0;
+    margin-right: 15px;
+}
+.testimonial-box p{
+    color: #616161;
+    font-size: 19px;
+    line-height: 30px;
+    font-family: "Laila", serif;
+    margin-bottom: 0px;
+}
+.name-designation p{
+    font-size: 13px;
+    text-transform: uppercase;
+    line-height: 13px;
+    font-family: "Outfit", sans-serif;
+    letter-spacing: 1px;
+}
+.testimonial-box{
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 50px 40px;
+    position: relative;
+}
+.client-intro{
+    display: flex;
+    align-items: center;
+}
+.name-designation h6{
+    font-family: "Laila", serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+.our-reviews-section .section-title{
+    margin-bottom: 60px;
+}
+.quotes-image{
+    width: 123px;
+    height: 122px;
+    position: absolute;
+    top: -17px;
+    right: -6px;
+}
+.our-reviews-section .owl-nav .owl-next span, .our-reviews-section .owl-nav .owl-prev span {
+    font-size: 0px;
+    width: 60px;
+    height: 50px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.our-reviews-section .owl-nav .owl-next span{
+    background-image: url(../images/arr-right-blu.png);
+    background-repeat: no-repeat;
+}
+.our-reviews-section .owl-nav .owl-prev span {
+    background-image: url(../images/arr-left-blu.png);
+    background-repeat: no-repeat;
 }
 @media only screen and (min-width: 1920px){
 
