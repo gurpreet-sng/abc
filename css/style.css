@@ -716,6 +716,12 @@ header{
     font-style: normal;
     margin: 0px 10px;
 }
+.copyright{
+    padding-left: 20px;
+}
+footer .d-flex{
+    align-items: center;
+}
 .copyright p{
     text-decoration: none;
     color: #154270;
@@ -928,6 +934,9 @@ textarea.form-control.field-style{
 }
 @media only screen and (max-width:1199px){
 
+    .copyright {
+        padding-left: 0px;
+    }
     .navbar-expand-md .navbar-nav .nav-link{
         padding: 5px 15px;
     }
