@@ -313,6 +313,11 @@ header{
     color: #EA4142;
     margin-top: 20px;
 }
+.we-love-text .btn.btn-style:hover{
+    background-color: #154270;
+    border:2px solid #154270;
+    color: #ffffff;
+}
 .we-love-text .btn.btn-style i{
     position: relative;
     top: -2px;
